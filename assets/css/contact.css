@@ -50,28 +50,25 @@
 }
 
 .contact__icon-wrap {
+    color: white;
     padding: 20px 22px;
-    background-color: black;
+    background-color: var(--primary-color);
     border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    transition: all .5s ease;
 }
-
+.contact__icon-wrap:hover{
+    color: var(--primary-color);
+    background-color: white;
+}
 .contact textarea,
 .contact input {
+    margin-bottom: 20px;
     width: 100%;
     max-width: 100%;
     padding: 10px;
     border-radius: 5px;
     font-size: 2.0rem;
-}
-
-.contact__btn {
-    margin-top: 20px;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    border: none;
-    transition: 0.5s ease;
 }
 
 .contact__social i {
@@ -80,8 +77,34 @@
     font-size: 1.8rem;
     color: black;
 }
-.contact__map{
+
+.contact__btn {
+    margin-top: 30px;
+}
+
+.contact__map {
     margin-top: 30px;
     display: block;
     width: 100%;
+}
+.contact__social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact__social a i {
+    padding: 10px;
+    color: white;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.contact__social a:nth-child(2) i {
+    background-color: #010101;
+}
+
+.contact__social a:nth-child(3) i {
+    background: linear-gradient(45deg, #fdc830, #f37335, #ee0979, #b51b9a, #4b1eab);
 }
