@@ -191,20 +191,13 @@
                             <h3 class="footer__title section-title">
                                 Contact us here
                             </h3>
-                            <form action="" class="footer__form">
+                            <form action="" class="footer__form-inner">
                                 <div class="footer__form-group form-group">
-                                    <label for="email" class="footer__form-label">Email</label>
                                     <input type="email" id="email" class="form-control footer__form-input"
                                         placeholder="Enter your email" required>
                                 </div>
-                                <div class="footer__form-group form-group">
-                                    <label for="mess" class="footer__form-label">Message</label>
-                                    <textarea name="mess" id="mess" class="form-control footer__form-mess"
-                                        placeholder="Enter your message" rows="4" required></textarea>
-                                </div>
                                 <button type="submit" class="btn btn-2">Submit</button>
                             </form>
-
                         </div>
                     </div>
                 </div>

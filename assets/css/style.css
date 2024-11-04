@@ -628,7 +628,12 @@
     margin: 0 auto;
     display: block;
 }
-
+.footer__form-inner{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--primary-color);
+}
 .footer__form-group {
     margin-bottom: 20px;
 }
@@ -643,6 +648,16 @@
 .footer__form-input,
 .footer__form-mess {
     font-size: 1.7rem;
+    border: none;
+   
 }
-
+.footer__form-inner button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer__form-input:focus{
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
 /* End Footer */
