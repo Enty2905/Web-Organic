@@ -502,6 +502,10 @@
     padding: 50px 0;
 }
 
+.contact .row {
+    align-items: center;
+}
+
 .contact__content {
     margin-left: auto;
     width: 370px;
@@ -581,12 +585,15 @@
 } */
 /* End Media Section */
 /* Footer */
-.footer {
-    padding: 50px 0;
-}
+.footer {}
 
 .footer .row {
     align-items: center;
+}
+
+.footer__inner {
+    padding: 50px 0;
+    border-top: 2px solid var(--primary-color);
 }
 
 .footer__title {
@@ -604,10 +611,12 @@
     font-weight: 500;
     transition: all .5s ease;
 }
-.footer__link:hover{
+
+.footer__link:hover {
     color: var(--primary-color);
     text-shadow: 1px 0 1px currentColor;
 }
+
 .footer__logo-wrap {
     width: 100%;
     height: 100%;

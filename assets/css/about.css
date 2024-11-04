@@ -7,7 +7,7 @@ body{
     background-color: #FEF7EA;
 }
 .header__top {
-    padding: 0;
+    padding: 20px 0;
 }
 .about__desc{
     font-size: 1.7rem;
