@@ -22,8 +22,8 @@
 </head>
 
 <body>
-   <!-- Header -->
-   <header class="header">
+    <!-- Header -->
+    <header class="header">
         <div class="header__inner">
             <!-- Header top -->
             <div class="header__top">
@@ -44,7 +44,7 @@
                                     <a href="./product.php" class="navbar__link">Product</a>
                                 </li>
                                 <li class="navbar__item">
-                                    <a href="../cart.php" class="navbar__link">
+                                    <a href="./cart.php" class="navbar__link">
                                         <i class="fa-solid fa-cart-shopping navbar__link-icon"></i>
                                         <span class="navbar__link-text">
                                             Cart
@@ -52,7 +52,7 @@
                                     </a>
                                 </li>
                                 <li class="navbar__item">
-                                    <a href="../contact.php" class="navbar__link navbar__link--special btn">Contact</a>
+                                    <a href="./contact.php" class="navbar__link navbar__link--special btn">Contact</a>
                                 </li>
                             </ul>
                         </nav>
@@ -68,56 +68,7 @@
         <div class="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-sm-12">
-                        <div class="inner-contact">
-                            <div class="contact__info">
-                                <div class="contact__top">
-                                    <p class="contact__desc section-desc-heading">
-                                        Would like to talk?
-                                    </p>
-                                    <h3 class="contact__title section-title">
-                                        Contact Details
-                                    </h3>
-                                </div>
-                                <p class="contact__desc-main">
-                                    If you have a story to share or a question that has not been answered on our website, please get in touch with us via contact details listed below or fill in the form on the right.
-                                </p>
-                                <ul class="contact__list">
-                                    <li class="contact__item">
-                                        <div class="contact__icon-wrap">
-                                            <i class="fa-solid fa-location-dot"></i>
-                                        </div>
-                                        <p class="contact__text">
-                                            <span>Email</span> : <a class="contact__link" href="mailto:contact@tnna.vn">contact@tnna.vn</a>
-                                        </p>
-                                    </li>
-                                    <li class="contact__item">
-                                        <div class="contact__icon-wrap">
-                                            <i class="fa-solid fa-location-dot"></i>
-                                        </div>
-                                        <p class="contact__text">
-                                            <span>Email</span> : <a class="contact__link" href="mailto:contact@tnna.vn">contact@tnna.vn</a>
-                                        </p>
-                                    </li>
-                                    <li class="contact__item">
-                                        <div class="contact__icon-wrap">
-                                            <i class="fa-solid fa-location-dot"></i>
-                                        </div>
-                                        <p class="contact__text">
-                                            <span>Email</span> : <a class="contact__link" href="mailto:contact@tnna.vn">contact@tnna.vn</a>
-                                        </p>
-                                    </li>
-                                </ul>
-                                <div class="contact__social">
-                                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                                    <a href="https://www.tiktok.com/@ndt02092005?lang=vi-VN"><i class="fa-brands fa-tiktok"></i></i></a>
-                                    <a href="https://www.instagram.com/entyyy_29/"><i class="fa-brands fa-instagram"></i></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6 col-sm-12">
+                    <div class="col-xl-8 col-sm-12">
                         <div class="contact-form">
                             <div class="contact__top">
                                 <p class="contact__desc section-desc-heading">
@@ -154,6 +105,45 @@
                                     </button>
                                 </div>
                             </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-12">
+                        <div class="inner-contact">
+                            <div class="contact__info">
+                                <div class="contact__top">
+                                    <h3 class="contact__title section-title">
+                                        Contact Details
+                                    </h3>
+                                </div>
+                                <p class="contact__desc">
+                                    If you have a story to share or a question that has not been answered on our website, please get in touch with us via contact details listed below or fill in the form on the right.
+                                </p>
+                                <ul class="contact__list">
+                                    <li class="contact__item">
+                                        <div class="contact__icon-wrap">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                        </div>
+                                        <a class="contact__link" href="mailto:contact@tnna.vn">contact@tnna.vn</a>
+                                    </li>
+                                    <li class="contact__item">
+                                        <div class="contact__icon-wrap">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                        </div>
+                                        <a class="contact__link" href="mailto:contact@tnna.vn">contact@tnna.vn</a>
+                                    </li>
+                                    <li class="contact__item">
+                                        <div class="contact__icon-wrap">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                        </div>
+                                        <a class="contact__link" href="mailto:contact@tnna.vn">contact@tnna.vn</a>
+                                    </li>
+                                </ul>
+                                <div class="contact__social">
+                                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.tiktok.com/@ndt02092005?lang=vi-VN"><i class="fa-brands fa-tiktok"></i></i></a>
+                                    <a href="https://www.instagram.com/entyyy_29/"><i class="fa-brands fa-instagram"></i></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

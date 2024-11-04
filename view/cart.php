@@ -45,7 +45,7 @@
                                     <a href="./product.php" class="navbar__link">Product</a>
                                 </li>
                                 <li class="navbar__item">
-                                    <a href="../cart.php" class="navbar__link">
+                                    <a href="./cart.php" class="navbar__link">
                                         <i class="fa-solid fa-cart-shopping navbar__link-icon"></i>
                                         <span class="navbar__link-text">
                                             Cart
@@ -53,7 +53,7 @@
                                     </a>
                                 </li>
                                 <li class="navbar__item">
-                                    <a href="../contact.php" class="navbar__link navbar__link--special btn">Contact</a>
+                                    <a href="./contact.php" class="navbar__link navbar__link--special btn">Contact</a>
                                 </li>
                             </ul>
                         </nav>
